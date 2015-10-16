@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+.box {
+    position: relative;
+    width: 100px;
+    height: 60px;
+    background: lightseagreen;
+    border: 2px solid darkblue;
+    margin: 40px;
+
+}
+
+.tooltip {
+    position: absolute;
+    display: block;
+    background: powderblue;
+    transform: translateY(-160%);
+}
+
+.left {
+    transform: translateX(-100%);
+}
+
+.right {
+    transform: translateX(100%);
+}
+
+.top {
+    transform: translateY(-100%);
+
+}
+
+.bottom {
+    transform: translateY(100%);
+
+}
