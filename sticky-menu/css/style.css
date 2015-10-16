@@ -7,6 +7,7 @@
 p {
     margin: 20px;
     padding: 5px;
+    font-size: 25px;
 }
 
 
@@ -27,4 +28,8 @@ p {
 .sticky {
     position: fixed;
     top: 0;
+}
+
+.active {
+    color: aqua;
 }
